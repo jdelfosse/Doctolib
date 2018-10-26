@@ -655,3 +655,435 @@ Migrating to CreateAppoitments (20181025141522)
   [1m[36mPatient Load (0.6ms)[0m  [1m[34mSELECT  "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
   [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT  "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
   [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT  "patients".* FROM "patients" ORDER BY "patients"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (1.1ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom0"], ["last_name", "prenom0"], ["specialty", "specialty0"], ["postal_code", 78120], ["created_at", "2018-10-26 00:39:17.498599"], ["updated_at", "2018-10-26 00:39:17.498599"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.3ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom1"], ["last_name", "prenom1"], ["specialty", "specialty1"], ["postal_code", 78121], ["created_at", "2018-10-26 00:39:17.502245"], ["updated_at", "2018-10-26 00:39:17.502245"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom2"], ["last_name", "prenom2"], ["specialty", "specialty2"], ["postal_code", 78122], ["created_at", "2018-10-26 00:39:17.504614"], ["updated_at", "2018-10-26 00:39:17.504614"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom3"], ["last_name", "prenom3"], ["specialty", "specialty3"], ["postal_code", 78123], ["created_at", "2018-10-26 00:39:17.506283"], ["updated_at", "2018-10-26 00:39:17.506283"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom4"], ["last_name", "prenom4"], ["specialty", "specialty4"], ["postal_code", 78124], ["created_at", "2018-10-26 00:39:17.507883"], ["updated_at", "2018-10-26 00:39:17.507883"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom5"], ["last_name", "prenom5"], ["specialty", "specialty5"], ["postal_code", 78125], ["created_at", "2018-10-26 00:39:17.509701"], ["updated_at", "2018-10-26 00:39:17.509701"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom6"], ["last_name", "prenom6"], ["specialty", "specialty6"], ["postal_code", 78126], ["created_at", "2018-10-26 00:39:17.511468"], ["updated_at", "2018-10-26 00:39:17.511468"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom7"], ["last_name", "prenom7"], ["specialty", "specialty7"], ["postal_code", 78127], ["created_at", "2018-10-26 00:39:17.513279"], ["updated_at", "2018-10-26 00:39:17.513279"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom8"], ["last_name", "prenom8"], ["specialty", "specialty8"], ["postal_code", 78128], ["created_at", "2018-10-26 00:39:17.514816"], ["updated_at", "2018-10-26 00:39:17.514816"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom9"], ["last_name", "prenom9"], ["specialty", "specialty9"], ["postal_code", 78129], ["created_at", "2018-10-26 00:39:17.516377"], ["updated_at", "2018-10-26 00:39:17.516377"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom0"], ["last_name", "prenom0"], ["created_at", "2018-10-26 00:39:17.524325"], ["updated_at", "2018-10-26 00:39:17.524325"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom1"], ["last_name", "prenom1"], ["created_at", "2018-10-26 00:39:17.526257"], ["updated_at", "2018-10-26 00:39:17.526257"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom2"], ["last_name", "prenom2"], ["created_at", "2018-10-26 00:39:17.528065"], ["updated_at", "2018-10-26 00:39:17.528065"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom3"], ["last_name", "prenom3"], ["created_at", "2018-10-26 00:39:17.529744"], ["updated_at", "2018-10-26 00:39:17.529744"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom4"], ["last_name", "prenom4"], ["created_at", "2018-10-26 00:39:17.531256"], ["updated_at", "2018-10-26 00:39:17.531256"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom5"], ["last_name", "prenom5"], ["created_at", "2018-10-26 00:39:17.532983"], ["updated_at", "2018-10-26 00:39:17.532983"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.3ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom6"], ["last_name", "prenom6"], ["created_at", "2018-10-26 00:39:17.535405"], ["updated_at", "2018-10-26 00:39:17.535405"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom7"], ["last_name", "prenom7"], ["created_at", "2018-10-26 00:39:17.537150"], ["updated_at", "2018-10-26 00:39:17.537150"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom8"], ["last_name", "prenom8"], ["created_at", "2018-10-26 00:39:17.538623"], ["updated_at", "2018-10-26 00:39:17.538623"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom9"], ["last_name", "prenom9"], ["created_at", "2018-10-26 00:39:17.539935"], ["updated_at", "2018-10-26 00:39:17.539935"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.4ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom0"], ["last_name", "prenom0"], ["specialty", "specialty0"], ["postal_code", 78120], ["created_at", "2018-10-26 00:39:23.251562"], ["updated_at", "2018-10-26 00:39:23.251562"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom1"], ["last_name", "prenom1"], ["specialty", "specialty1"], ["postal_code", 78121], ["created_at", "2018-10-26 00:39:23.254655"], ["updated_at", "2018-10-26 00:39:23.254655"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom2"], ["last_name", "prenom2"], ["specialty", "specialty2"], ["postal_code", 78122], ["created_at", "2018-10-26 00:39:23.256743"], ["updated_at", "2018-10-26 00:39:23.256743"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom3"], ["last_name", "prenom3"], ["specialty", "specialty3"], ["postal_code", 78123], ["created_at", "2018-10-26 00:39:23.258693"], ["updated_at", "2018-10-26 00:39:23.258693"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom4"], ["last_name", "prenom4"], ["specialty", "specialty4"], ["postal_code", 78124], ["created_at", "2018-10-26 00:39:23.260909"], ["updated_at", "2018-10-26 00:39:23.260909"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom5"], ["last_name", "prenom5"], ["specialty", "specialty5"], ["postal_code", 78125], ["created_at", "2018-10-26 00:39:23.262794"], ["updated_at", "2018-10-26 00:39:23.262794"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom6"], ["last_name", "prenom6"], ["specialty", "specialty6"], ["postal_code", 78126], ["created_at", "2018-10-26 00:39:23.264583"], ["updated_at", "2018-10-26 00:39:23.264583"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom7"], ["last_name", "prenom7"], ["specialty", "specialty7"], ["postal_code", 78127], ["created_at", "2018-10-26 00:39:23.266142"], ["updated_at", "2018-10-26 00:39:23.266142"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.3ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom8"], ["last_name", "prenom8"], ["specialty", "specialty8"], ["postal_code", 78128], ["created_at", "2018-10-26 00:39:23.267725"], ["updated_at", "2018-10-26 00:39:23.267725"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom9"], ["last_name", "prenom9"], ["specialty", "specialty9"], ["postal_code", 78129], ["created_at", "2018-10-26 00:39:23.269968"], ["updated_at", "2018-10-26 00:39:23.269968"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.3ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom0"], ["last_name", "prenom0"], ["created_at", "2018-10-26 00:39:23.277794"], ["updated_at", "2018-10-26 00:39:23.277794"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom1"], ["last_name", "prenom1"], ["created_at", "2018-10-26 00:39:23.279946"], ["updated_at", "2018-10-26 00:39:23.279946"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom2"], ["last_name", "prenom2"], ["created_at", "2018-10-26 00:39:23.281871"], ["updated_at", "2018-10-26 00:39:23.281871"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.3ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom3"], ["last_name", "prenom3"], ["created_at", "2018-10-26 00:39:23.283690"], ["updated_at", "2018-10-26 00:39:23.283690"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.3ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom4"], ["last_name", "prenom4"], ["created_at", "2018-10-26 00:39:23.285873"], ["updated_at", "2018-10-26 00:39:23.285873"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom5"], ["last_name", "prenom5"], ["created_at", "2018-10-26 00:39:23.287952"], ["updated_at", "2018-10-26 00:39:23.287952"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom6"], ["last_name", "prenom6"], ["created_at", "2018-10-26 00:39:23.289650"], ["updated_at", "2018-10-26 00:39:23.289650"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom7"], ["last_name", "prenom7"], ["created_at", "2018-10-26 00:39:23.291259"], ["updated_at", "2018-10-26 00:39:23.291259"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.3ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom8"], ["last_name", "prenom8"], ["created_at", "2018-10-26 00:39:23.293147"], ["updated_at", "2018-10-26 00:39:23.293147"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom9"], ["last_name", "prenom9"], ["created_at", "2018-10-26 00:39:23.294951"], ["updated_at", "2018-10-26 00:39:23.294951"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.7ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom0"], ["last_name", "prenom0"], ["specialty", "specialty0"], ["postal_code", 78120], ["created_at", "2018-10-26 00:39:49.478894"], ["updated_at", "2018-10-26 00:39:49.478894"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom1"], ["last_name", "prenom1"], ["specialty", "specialty1"], ["postal_code", 78121], ["created_at", "2018-10-26 00:39:49.482511"], ["updated_at", "2018-10-26 00:39:49.482511"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.3ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom2"], ["last_name", "prenom2"], ["specialty", "specialty2"], ["postal_code", 78122], ["created_at", "2018-10-26 00:39:49.484614"], ["updated_at", "2018-10-26 00:39:49.484614"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom3"], ["last_name", "prenom3"], ["specialty", "specialty3"], ["postal_code", 78123], ["created_at", "2018-10-26 00:39:49.486386"], ["updated_at", "2018-10-26 00:39:49.486386"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom4"], ["last_name", "prenom4"], ["specialty", "specialty4"], ["postal_code", 78124], ["created_at", "2018-10-26 00:39:49.488044"], ["updated_at", "2018-10-26 00:39:49.488044"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom5"], ["last_name", "prenom5"], ["specialty", "specialty5"], ["postal_code", 78125], ["created_at", "2018-10-26 00:39:49.489605"], ["updated_at", "2018-10-26 00:39:49.489605"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom6"], ["last_name", "prenom6"], ["specialty", "specialty6"], ["postal_code", 78126], ["created_at", "2018-10-26 00:39:49.491425"], ["updated_at", "2018-10-26 00:39:49.491425"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom7"], ["last_name", "prenom7"], ["specialty", "specialty7"], ["postal_code", 78127], ["created_at", "2018-10-26 00:39:49.493001"], ["updated_at", "2018-10-26 00:39:49.493001"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom8"], ["last_name", "prenom8"], ["specialty", "specialty8"], ["postal_code", 78128], ["created_at", "2018-10-26 00:39:49.494580"], ["updated_at", "2018-10-26 00:39:49.494580"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mDoctor Create (0.2ms)[0m  [1m[32mINSERT INTO "doctors" ("first_name", "last_name", "specialty", "postal_code", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "nom9"], ["last_name", "prenom9"], ["specialty", "specialty9"], ["postal_code", 78129], ["created_at", "2018-10-26 00:39:49.496254"], ["updated_at", "2018-10-26 00:39:49.496254"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.3ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom0"], ["last_name", "prenom0"], ["created_at", "2018-10-26 00:39:49.502425"], ["updated_at", "2018-10-26 00:39:49.502425"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom1"], ["last_name", "prenom1"], ["created_at", "2018-10-26 00:39:49.504663"], ["updated_at", "2018-10-26 00:39:49.504663"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom2"], ["last_name", "prenom2"], ["created_at", "2018-10-26 00:39:49.506386"], ["updated_at", "2018-10-26 00:39:49.506386"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom3"], ["last_name", "prenom3"], ["created_at", "2018-10-26 00:39:49.508217"], ["updated_at", "2018-10-26 00:39:49.508217"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom4"], ["last_name", "prenom4"], ["created_at", "2018-10-26 00:39:49.510062"], ["updated_at", "2018-10-26 00:39:49.510062"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom5"], ["last_name", "prenom5"], ["created_at", "2018-10-26 00:39:49.511730"], ["updated_at", "2018-10-26 00:39:49.511730"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom6"], ["last_name", "prenom6"], ["created_at", "2018-10-26 00:39:49.513494"], ["updated_at", "2018-10-26 00:39:49.513494"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom7"], ["last_name", "prenom7"], ["created_at", "2018-10-26 00:39:49.515215"], ["updated_at", "2018-10-26 00:39:49.515215"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom8"], ["last_name", "prenom8"], ["created_at", "2018-10-26 00:39:49.516711"], ["updated_at", "2018-10-26 00:39:49.516711"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mPatient Create (0.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "nom9"], ["last_name", "prenom9"], ["created_at", "2018-10-26 00:39:49.518246"], ["updated_at", "2018-10-26 00:39:49.518246"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.4ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 0], ["created_at", "2018-10-26 00:42:09.300532"], ["updated_at", "2018-10-26 00:42:09.300532"], ["doctors_id", 0], ["patients_id", 0]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 1], ["created_at", "2018-10-26 00:42:09.302804"], ["updated_at", "2018-10-26 00:42:09.302804"], ["doctors_id", 1], ["patients_id", 1]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 2], ["created_at", "2018-10-26 00:42:09.305415"], ["updated_at", "2018-10-26 00:42:09.305415"], ["doctors_id", 2], ["patients_id", 2]]
+  ↳ db/seeds.rb:19
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 3], ["created_at", "2018-10-26 00:42:09.307927"], ["updated_at", "2018-10-26 00:42:09.307927"], ["doctors_id", 3], ["patients_id", 3]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 4], ["created_at", "2018-10-26 00:42:09.310027"], ["updated_at", "2018-10-26 00:42:09.310027"], ["doctors_id", 4], ["patients_id", 4]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 5], ["created_at", "2018-10-26 00:42:09.311938"], ["updated_at", "2018-10-26 00:42:09.311938"], ["doctors_id", 5], ["patients_id", 5]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.4ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 6], ["created_at", "2018-10-26 00:42:09.313768"], ["updated_at", "2018-10-26 00:42:09.313768"], ["doctors_id", 6], ["patients_id", 6]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 7], ["created_at", "2018-10-26 00:42:09.315953"], ["updated_at", "2018-10-26 00:42:09.315953"], ["doctors_id", 7], ["patients_id", 7]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 8], ["created_at", "2018-10-26 00:42:09.317742"], ["updated_at", "2018-10-26 00:42:09.317742"], ["doctors_id", 8], ["patients_id", 8]]
+  ↳ db/seeds.rb:19
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAppoitment Create (0.3ms)[0m  [1m[32mINSERT INTO "appoitments" ("id", "created_at", "updated_at", "doctors_id", "patients_id") VALUES (?, ?, ?, ?, ?)[0m  [["id", 9], ["created_at", "2018-10-26 00:42:09.320336"], ["updated_at", "2018-10-26 00:42:09.320336"], ["doctors_id", 9], ["patients_id", 9]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
